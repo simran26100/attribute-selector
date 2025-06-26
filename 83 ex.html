@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute selector example</title>
+    <sript src="https://code.jquery.com/jquery-3.7.1.min.js"></sript>
+    <script>
+        $(document).ready(function(){
+            $("input[name='username']").val("john Doe");
+
+            $("input[type='text']").css("border","2px solid red");
+        });
+    </script>
+</head>
+<body>
+  <h1>ATTRIBUTE SELECTOR EXAMPLE</h1>
+  <input type="text" name=""email" placeholder="Enter email">
+  <input type="password" nmae="password"
+  placeholder="Enter password">
+</body>
+</html>
